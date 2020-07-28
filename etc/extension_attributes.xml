@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- File: app/code/Atwix/OrderFeedback/etc/extension_attributes.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Api/etc/extension_attributes.xsd">
+    <extension_attributes for="Magento\Sales\Api\Data\OrderInterface">
+        <attribute code="example_attribute" type="string" />
+    </extension_attributes>
+</config>
